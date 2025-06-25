@@ -13,7 +13,7 @@
     <admin-password>adminpass</admin-password>
   </authentication>
 
-  <hostname>yourdomain.onrender.com</hostname>
+  <hostname>https://one41radio.onrender.com</hostname>
 
   <listen-socket>
     <port>8000</port>
