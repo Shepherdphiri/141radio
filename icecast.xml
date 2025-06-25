@@ -13,7 +13,7 @@
     <admin-password>adminpass</admin-password>
   </authentication>
 
-  <hostname>https://one41radio.onrender.com</hostname>
+  <hostname>one41radio.onrender.com</hostname>
 
   <listen-socket>
     <port>8000</port>
@@ -27,4 +27,14 @@
     <webroot>/usr/share/icecast/web</webroot>
     <adminroot>/usr/share/icecast/admin</adminroot>
   </paths>
+
+  <!-- Added this to define a mount point for streaming -->
+  <mount>
+    <mount-name>/stream</mount-name>
+    <max-listeners>100</max-listeners>
+  </mount>
+
+  <!-- These help eliminate warnings -->
+  <location>Cape Town, South Africa</location>
+  <admin>shepherdphiri88@gmail.com</admin>
 </icecast>
